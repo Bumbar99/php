@@ -13,7 +13,7 @@ if ($result->num_rows==0) {
 }
 elseif (isset($price) || isset($description)){
 
-   $base->query("UPDATE `pricing` SET `price`='$price',`description`='$description' WHERE id='$id';");
+   $base->query("UPDATE `pricing` SET `price`='$price',`description`='$description' WHERE id='$id'");
 
 }
 
