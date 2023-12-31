@@ -9,7 +9,7 @@
     <form action="deletePricingcheck.php" method="POST">
 
 <input type="text" name="delete" placeholder="Enter id of the price want to delete">
-<input type="text" name="price" placeholder="Enter price  want to delete">
+
 
 <button>DELETE</button>
     </form>
